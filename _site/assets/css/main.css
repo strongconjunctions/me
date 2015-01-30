@@ -377,7 +377,7 @@ h3, header nav.nav-bar a, footer .lockup .content-wrap a {
   font-letter-spacing: 0.02em;
   text-transform: uppercase; }
 
-.clients-section .clients-carousel .cl-section .cl-testimonials h3.name, .gmail-link {
+.clients-section .clients-carousel .cl-section .cl-testimonials h3.name, .mail .gmail-link {
   font-size: 18pt;
   font-weight: 300;
   text-transform: uppercase;
@@ -406,10 +406,6 @@ header .logo, footer .lockup .logo {
 header {
   background: url(../img/bg/mountain7.jpg) center center;
   background-size: cover; }
-  header .navigation {
-    top: 0px;
-    height: 5px;
-    margin: 0px; }
   header .logo {
     margin: 0;
     padding: 30px;
@@ -428,7 +424,7 @@ header {
     text-align: center; }
     header nav.nav-bar a {
       display: inline-block;
-      padding: 10px 20px 10px;
+      padding: 5px 8px 5px;
       color: rgba(0, 0, 0, 0.4);
       transition: 0.2s ease-out; }
       header nav.nav-bar a:hover {
@@ -464,7 +460,7 @@ header {
     letter-spacing: 0.01em;
     padding: 30px 0px 100px 0px; }
 
-@media (max-width: 640px) {
+@media (max-width: 690px) {
   header .logo {
     padding: 30px;
     float: none;
@@ -480,18 +476,42 @@ header {
     clear: both; }
     header nav.nav-bar a {
       display: inline-block;
-      padding-right: 8px;
-      padding-left: 8px;
+      padding: 5px 8px 5px;
       margin: 0 auto;
       text-align: center;
       max-width: 100%; }
   header h1 {
-    padding: 100px 20px 20px 20px;
-    font-size: 55px;
-    min-width: 20; }
+    padding: 120px 20px 20px 20px;
+    font-size: 55px; }
   header .kicker {
     font-size: 12pt;
     padding-bottom: 80px; } }
+@media (max-width: 360px) {
+  header nav.nav-bar {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 20px 20px 0;
+    float: none;
+    clear: both; }
+    header nav.nav-bar a {
+      display: inline-block;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin: 0 auto;
+      font-size: 8pt;
+      text-align: center;
+      max-width: 100%; }
+  header h1 {
+    padding: 100px 5px 20px 5px;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em; }
+  header hr {
+    border-top-width: 0px; }
+  header .kicker {
+    font-size: 10pt;
+    padding-bottom: 50px; } }
 section .face-lockup {
   max-width: 745px;
   display: -webkit-box;
@@ -553,6 +573,39 @@ section .face-lockup {
       order: 5; }
     section .face-lockup [class^="icon-"]:hover {
       opacity: 1; }
+section .about-text {
+  max-width: 750px;
+  padding: 0 20px;
+  /* put at least 10 px padding so that the text does not touch the sides of the phone */
+  margin: 60px auto;
+  text-align: justify;
+  letter-spacing: 0.045em;
+  font-size: 14pt;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #534741; }
+section .skill-lockup {
+  max-width: 600px;
+  margin: 120px auto;
+  padding: 0 20px; }
+  section .skill-lockup:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section .skill-lockup .skill-label {
+    color: #534741; }
+  section .skill-lockup .skill-unit {
+    width: 300px;
+    float: left; }
+  section .skill-lockup .skill-icons {
+    font-size: 0;
+    margin: 0 0 30px; }
+    section .skill-lockup .skill-icons span {
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      margin-right: 2px; }
+
 @media (max-width: 690px) {
   section .face-lockup {
     display: block;
@@ -572,39 +625,6 @@ section .face-lockup {
     section .face-lockup [class^="icon-"] {
       margin: 10px;
       padding: 5px; } }
-section .about-text {
-  max-width: 750px;
-  padding: 0 40px;
-  /* put at least 10 px padding so that the text does not touch the sides of the phone */
-  margin: 60px auto;
-  text-align: justify;
-  letter-spacing: 0.045em;
-  font-size: 14pt;
-  font-weight: 300;
-  line-height: 1.5em;
-  color: #534741; }
-section .skill-lockup {
-  max-width: 600px;
-  margin: 120px auto;
-  padding: 0 40px; }
-  section .skill-lockup:after {
-    content: "";
-    display: table;
-    clear: both; }
-  section .skill-lockup .skill-label {
-    color: #534741; }
-  section .skill-lockup .skill-unit {
-    width: 300px;
-    float: left; }
-  section .skill-lockup .skill-icons {
-    font-size: 0;
-    margin: 0 0 30px; }
-    section .skill-lockup .skill-icons span {
-      display: inline-block;
-      height: 20px;
-      width: 20px;
-      margin-right: 2px; }
-
 .projects-section {
   width: 98%;
   max-height: 1200px;
@@ -679,36 +699,6 @@ section .skill-lockup {
             margin: 0 auto;
             color: #d89993; }
 
-/*         .prev
- * height: 60px
- * width: 60px
- * margin: 0 20px
- * opacity: 0.3
- * transition: all 0.5s ease-out
- * -webkit-transition: all 0.5s ease-out
- * cursor: pointer
- *
- * &:hover
- *   opacity: 1
- *
- * @media screen and (max-width: 960px)
- *   padding: 0 10px
- *   margin: none */
-/*         .next
- * width: 60px
- * height: 60px
- * margin: 370px 20px
- * opacity: 0.3
- * transition: all 0.5s ease-out
- * -webkit-transition: all 0.5s ease-out
- * cursor: pointer
- *
- * &:hover
- *   opacity: 1
- *
- * @media screen and (max-width: 960px)
- *   padding: 0 10px
- *   margin: none */
 @media (max-width: 960px) {
   .projects-section {
     height: 100%; }
@@ -775,7 +765,7 @@ footer {
         footer .lockup .content-wrap a:hover {
           color: #FFF498; }
 
-@media (max-width: 640px) {
+@media (max-width: 690px) {
   footer .lockup {
     text-align: center;
     padding-bottom: 0px; }
@@ -801,7 +791,23 @@ footer {
         float: none;
         text-align: center;
         margin: 0 auto;
-        padding: 0; } }
+        font-size: 10px;
+        padding: 0 0 15px 0; } }
+@media (max-width: 360px) {
+  footer .lockup .content-wrap a {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 0 auto;
+    font-size: 8pt;
+    text-align: center;
+    max-width: 100%; }
+  footer .lockup .content-wrap .copyright {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 8px;
+    padding: 0 0 15px 0; } }
 .clients-section {
   position: relative;
   margin: 0 auto 200px auto; }
@@ -856,7 +862,7 @@ footer {
           transition: 0.6s ease-in; }
         .clients-section .clients-carousel .cl-section .cl-testimonials p {
           max-width: 750px;
-          padding: 0 20px 0px 20px;
+          padding: 0 10px 0px 10px;
           margin: 0 auto;
           text-align: justify;
           letter-spacing: 0.045em;
@@ -892,7 +898,8 @@ footer {
     -ms-justify-content: space-around;
     -o-justify-content: space-around;
     justify-content: space-around;
-    -ms-flex-pack: center; }
+    -ms-flex-pack: center;
+    padding: 0px 40px; }
     .clients-section .client-logos .cl-logo {
       height: 80px;
       min-width: 200px;
@@ -919,7 +926,7 @@ footer {
     border-radius: 50%;
     border: solid 2px #cf6357;
     opacity: 0.5;
-    margin: 0px 10px 30px 10px;
+    margin: 0px 14px 30px 14px;
     transition: 0.2s ease-out; }
     .cl-mob-nav span.active-section {
       -webkit-transform: scale(1.2);
@@ -930,6 +937,13 @@ footer {
       opacity: 1; }
 
 @media (max-width: 790px) {
+  .clients-section {
+    margin: 0 auto 120px auto; }
+    .clients-section #carousel-controls {
+      display: none;
+      width: 0px;
+      height: 0px; }
+
   .cl-logo {
     display: none; }
 
@@ -945,12 +959,7 @@ footer {
     .clients-carousel .cl-section .cl-testimonials {
       padding: 0px 10px;
       max-width: 600px;
-      margin: 0px auto; }
-
-  .clients-section #carousel-controls {
-    display: none;
-    width: 0px;
-    height: 0px; } }
+      margin: 0px auto; } }
 .social-links {
   max-width: 760px;
   margin: 0px auto 70px;
@@ -1002,20 +1011,20 @@ footer {
   margin: 50px auto;
   border-top: 4px solid #cf6357; }
 
-.gmail-link {
-  max-width: 760px;
-  display: block;
+.mail {
   margin: 0px auto 60px;
-  transition: 0.3s ease-out; }
-  .gmail-link:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2); }
-  @media (max-width: 690px) {
-    .gmail-link {
-      font-size: 15px; } }
+  padding: 0px 20px;
+  max-width: 100%; }
+  .mail .gmail-link {
+    display: block;
+    font-size: 14pt;
+    transition: 0.3s ease-out; }
+    .mail .gmail-link:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1); }
 
 .contact-section {
   text-align: center; }
@@ -1024,9 +1033,20 @@ footer {
     display: table;
     clear: both; }
 
+@media (max-width: 640px) {
+  .mail {
+    padding: 20px; }
+    .mail .gmail-link {
+      font-size: 10pt; } }
+@media (max-width: 360px) {
+  .mail {
+    padding: 20px; }
+    .mail .gmail-link {
+      font-size: 6pt; } }
 section form {
   max-width: 640px;
-  margin: 0px auto 50px; }
+  margin: 0px auto 50px;
+  padding: 0px 20px; }
   section form textarea {
     height: 150px;
     font-size: 1.1em;
