@@ -1,41 +1,64 @@
 .social-links
-    max-width: 760px
-    margin: 0px auto 70px
-    +display(flex)
-    +justify-content(space-around)
-    +flex-wrap(wrap)
+  max-width: 760px
+  margin: 0px auto 70px
+  +display(flex)
+  +justify-content(space-around)
+  +flex-wrap(wrap)
 
-    a
-        display: block
-        background: $main-red
-        border-radius: 50%
-        +size(50px)
-        text-align: center
-        line-height: 50px
-        color: #fff
-        font-size: 25px
-        margin: 10px
-        transition: 0.3s ease-in
-        &:hover
-            +transform(scale(1.6))
+  a
+    display: block
+    background: $main-red
+    border-radius: 50%
+    +size(50px)
+    text-align: center
+    line-height: 50px
+    color: #fff
+    font-size: 25px
+    margin: 10px
+    transition: 0.3s ease-in
+    &:hover
+      +transform(scale(1.6))
 
 .separator
-    width: 150px
-    height: 0px
-    margin: 50px auto
-    border-top: 4px solid $main-red
+  width: 150px
+  height: 0px
+  margin: 50px auto
+  border-top: 4px solid $main-red
 
-.gmail-link
-    max-width: 760px
+.mail
+  margin: 0px auto 60px
+  padding: 0px 20px
+  max-width: 100%
+
+  .gmail-link
     display: block
-    margin: 0px auto 60px
     @extend %label-semibold
+    font-size: 14pt
     transition: 0.3s ease-out
     &:hover
-        +transform(scale(1.2))
-    @media (max-width: 690px)
-        font-size: 15px
+      +transform(scale(1.1))
 
 .contact-section
-    text-align: center
-    +clearfix
+  text-align: center
+  +clearfix
+
+
+
+///MEDIA QUERIES///
+
+@media (max-width: 640px)
+
+  .mail
+    padding: 20px
+
+    .gmail-link
+      font-size: 10pt
+
+
+@media (max-width: 360px)
+
+  .mail
+    padding: 20px
+
+    .gmail-link
+      font-size: 6pt

@@ -61,7 +61,7 @@
 
         p
           max-width: 750px
-          padding: 0 20px 0px 20px
+          padding: 0 10px 0px 10px
           margin: 0 auto
           text-align: justify
           letter-spacing: 0.045em
@@ -79,6 +79,7 @@
     +display(flex)
     +align-items(flex-end)
     +justify-content(space-around)
+    padding: 0px 40px
 
 
     .cl-logo
@@ -113,7 +114,7 @@
     border-radius: 50%
     border: solid 2px $main-red
     opacity: 0.5
-    margin: 0px 10px 30px 10px
+    margin: 0px 14px 30px 14px
     transition: 0.2s ease-out
 
 
@@ -127,6 +128,14 @@
 // MEDIA QUERY
 
 @media (max-width: 790px)
+
+  .clients-section
+    margin: 0 auto 120px auto
+
+    #carousel-controls
+      display: none
+      width: 0px
+      height: 0px
 
   .cl-logo
     display: none
@@ -149,10 +158,4 @@
         margin: 0px auto
 
 
-  .clients-section
-
-    #carousel-controls
-      display: none
-      width: 0px
-      height: 0px
 
