@@ -372,9 +372,9 @@ h3 {
   h3 {
     padding: 50px 0 50px; } }
 h3, header nav.nav-bar a, footer .lockup .content-wrap a {
-  font-size: 11pt;
-  font-weight: 700;
-  font-letter-spacing: 0.02em;
+  font-size: 10pt;
+  font-weight: 600;
+  font-letter-spacing: 0.015em;
   text-transform: uppercase; }
 
 .clients-section .clients-carousel .cl-section .cl-testimonials h3.name, .mail .gmail-link {
@@ -431,33 +431,32 @@ header {
         color: #d89993; }
   header h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 800;
     color: white;
     line-height: 1.1em;
-    padding: 60px 20px 30px 20px;
-    letter-spacing: 0.012em;
+    padding: 60px 50px 30px 50px;
+    letter-spacing: 0.0012em;
     clear: both;
     border: none;
-    margin: 0 auto 0 auto;
-    transition: 0.6s ease-in; }
+    margin: 0 auto 0 auto; }
   header hr {
     border: solid #fff;
-    border-top-width: 3px;
-    width: 120px;
+    border-top-width: 2px;
+    width: 180px;
     margin: 10px auto 0px;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     display: block;
-    font-size: 85%; }
+    font-size: 15%; }
   header .kicker {
     text-align: center;
     color: white;
     font-size: 18pt;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.15em;
     padding: 30px 0px 100px 0px; }
 
 @media (max-width: 690px) {
@@ -483,6 +482,8 @@ header {
   header h1 {
     padding: 120px 20px 20px 20px;
     font-size: 55px; }
+  header hr {
+    width: 90px; }
   header .kicker {
     font-size: 12pt;
     padding-bottom: 80px; } }
@@ -575,7 +576,7 @@ section .face-lockup {
       opacity: 1; }
 section .about-text {
   max-width: 750px;
-  padding: 0 20px;
+  padding: 0 40px;
   /* put at least 10 px padding so that the text does not touch the sides of the phone */
   margin: 60px auto;
   text-align: justify;
@@ -587,7 +588,7 @@ section .about-text {
 section .skill-lockup {
   max-width: 600px;
   margin: 120px auto;
-  padding: 0 20px; }
+  padding: 0 40px; }
   section .skill-lockup:after {
     content: "";
     display: table;
@@ -629,6 +630,8 @@ section .skill-lockup {
   width: 98%;
   max-height: 1200px;
   margin: 0 auto 100px; }
+  .projects-section .projects-header {
+    text-align: center; }
   .projects-section #proj-container {
     max-width: 900px;
     height: 100%;
@@ -881,7 +884,7 @@ footer {
           transition: 0.6s ease-in; }
         .clients-section .clients-carousel .cl-section .cl-testimonials p {
           max-width: 750px;
-          padding: 0 10px 0px 10px;
+          padding: 0 20px 0px 20px;
           margin: 0 auto;
           text-align: justify;
           letter-spacing: 0.045em;
@@ -1055,6 +1058,8 @@ footer {
     content: "";
     display: table;
     clear: both; }
+  .contact-section .contact {
+    text-align: center; }
 
 @media (max-width: 640px) {
   .mail {
