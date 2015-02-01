@@ -1007,11 +1007,6 @@ footer {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  .social-links .sc-links {
-    height: 50px;
-    width: 50px; }
-    .social-links .sc-links path {
-      fill: #fff; }
   .social-links a {
     display: block;
     background: #cf6357;
@@ -1023,12 +1018,14 @@ footer {
     font-size: 25px;
     margin: 10px;
     transition: 0.3s ease-in; }
+    .social-links a path {
+      fill: #fff; }
     .social-links a:hover {
-      -webkit-transform: scale(1.6);
-      -moz-transform: scale(1.6);
-      -ms-transform: scale(1.6);
-      -o-transform: scale(1.6);
-      transform: scale(1.6); }
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2); }
 
 .separator {
   width: 150px;
