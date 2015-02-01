@@ -431,7 +431,7 @@ header {
         color: #d89993; }
   header h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 65px;
     font-weight: 800;
     color: white;
     line-height: 1.1em;
@@ -503,11 +503,12 @@ header {
       text-align: center;
       max-width: 100%; }
   header h1 {
-    padding: 80px 5px 20px 5px;
+    padding: 80px 10px 20px 10px;
     text-transform: uppercase;
     letter-spacing: 0.04em; }
   header hr {
-    border-top-width: 0px; }
+    border-top-width: 0px;
+    width: 50px; }
   header .kicker {
     font-size: 10pt;
     padding-bottom: 50px; } }

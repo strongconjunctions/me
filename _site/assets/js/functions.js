@@ -3,7 +3,7 @@
 // HEADER RESIZING (fittextjs.com)
 
 $(function() {
-	$(".header-class h1").fitText(1, { minFontSize: '20px', maxFontSize: '40px' });
+	$(".header-class h1").fitText(1, { minFontSize: '24px', maxFontSize: '66px' });
 });
 
 
