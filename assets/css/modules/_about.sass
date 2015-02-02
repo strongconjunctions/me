@@ -1,7 +1,5 @@
 section
 
-  .about-me
-
   .face-lockup
     max-width: 745px
     +display(flex)
@@ -9,7 +7,6 @@ section
     padding: 0 40px 40px
     +align-items(center)
     +justify-content(space-between)
-
 
     .face-img
       +size(180px)
@@ -23,9 +20,6 @@ section
 
       &:hover
         opacity: 1
-
-
-
 
 
 
@@ -60,17 +54,13 @@ section
 
 
 
-
-
-
-
   .about-text
     max-width: 750px
-    padding: 0 40px
+    padding: 0 20px
     /* put at least 10 px padding so that the text does not touch the sides of the phone */
     margin: 60px auto
-    text-align: justify
-    letter-spacing: 0.045em
+    text-align: center
+    letter-spacing: 0.025em
     font-size: 14pt
     font-weight: 300
     line-height: 1.5em
@@ -81,7 +71,7 @@ section
   .skill-lockup
     max-width: 600px
     margin: 120px auto
-    padding: 0 40px
+    padding: 0 20px
     +clearfix
 
     .skill-label
@@ -101,7 +91,16 @@ section
         display: inline-block
         +size(20px)
         @extend %skill-color
-        margin-right: 2px
+        opacity: 0.7
+        margin-right: 1px
+        transition: 0.3s ease-in
+        cursor: pointer
+
+        &:hover
+          opacity: 1
+          +transform(scale(1.2))
+
+
 
 
       @for $i from 1 through 10
@@ -118,6 +117,7 @@ section
 @media (max-width: 690px)
 
   section
+
 
     .face-lockup
       display: block
@@ -142,3 +142,8 @@ section
 
 
 
+@media (max-width: 420px)
+
+  section
+    .about-text
+      font-size: 12pt

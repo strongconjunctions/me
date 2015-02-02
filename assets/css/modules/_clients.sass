@@ -48,6 +48,8 @@
 
       .cl-testimonials
         position: relative
+        padding: 0 20px
+        max-width: 750px
 
         h3.name
           border: 3px solid $main-red
@@ -61,10 +63,10 @@
 
         p
           max-width: 750px
-          padding: 0 20px 0px 20px
+          padding: 0
           margin: 0 auto
-          text-align: justify
-          letter-spacing: 0.045em
+          text-align: left
+          letter-spacing: 0.025em
           font-size: 14pt
           font-weight: 300
           line-height: 1.5em
@@ -157,5 +159,19 @@
         max-width: 600px
         margin: 0px auto
 
+        p
+          text-align: center
 
 
+@media (max-width: 420px)
+
+  .clients-section
+
+    .clients-carousel
+
+      .cl-section
+
+        .cl-testimonials
+
+          p
+            font-size: 12pt
