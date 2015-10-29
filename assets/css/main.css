@@ -405,6 +405,7 @@ header .logo, footer .lockup .logo {
 
 header {
   background: url(../img/bg/mountain7.jpg) center center;
+  background-attachment: fixed;
   background-size: cover; }
   header .logo {
     margin: 0;
