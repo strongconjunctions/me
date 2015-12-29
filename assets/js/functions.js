@@ -52,7 +52,7 @@ function slide(x) {
 }
 
 
-window.setInterval(function slideA() {
+window.setInterval(function () {
 	var Image = document.getElementById('img');
 	imgCount = imgCount + 1;
 	if(imgCount > total){ imgCount = 1; }
