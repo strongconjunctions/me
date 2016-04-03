@@ -748,11 +748,11 @@ section .skill-lockup {
       height: 30px; } }
 footer {
   bottom: 0px;
-  background: url(../img/bg/mountain7.jpg) center center;
-  background-repeat: no-repeat, no-repeat;
+  background: center center;
   background-size: cover;
   position: relative;
   width: 100%;
+  min-height: 100vh;
   margin: 120px auto 0 auto; }
   footer:after {
     content: "";
