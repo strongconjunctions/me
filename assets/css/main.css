@@ -748,7 +748,7 @@ section .skill-lockup {
       height: 30px; } }
 footer {
   bottom: 0px;
-  background: center center;
+  background: url("../img/bg/mountain7.jpg") center center;
   background-size: cover;
   position: relative;
   width: 100%;
