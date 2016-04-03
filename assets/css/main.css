@@ -432,15 +432,18 @@ header {
         color: #d89993; }
   header h1 {
     text-align: center;
-    font-size: 65px;
-    font-weight: 800;
+    font-family: 'Montserrat';
+    font-size: 65px !important;
+    font-weight: 600;
+    text-transform: uppercase;
     color: white;
-    line-height: 1.1em;
-    padding: 60px 50px 30px 50px;
-    letter-spacing: 0.0012em;
+    line-height: 1.5em;
+    padding: 120px 20px 30px 20px;
+    letter-spacing: 0.15em;
     clear: both;
     border: none;
-    margin: 0 auto 0 auto; }
+    margin: 0 auto 0 auto;
+    transition: 0.6s ease-in; }
   header hr {
     border: solid #fff;
     border-top-width: 2px;
