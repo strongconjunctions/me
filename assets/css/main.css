@@ -405,6 +405,7 @@ header .logo, footer .lockup .logo {
 
 header {
   background: url(../img/bg/mountain7.jpg) center center;
+  min-height: 100vh;
   background-attachment: fixed;
   background-size: cover; }
   header .logo {
@@ -438,7 +439,7 @@ header {
     text-transform: uppercase;
     color: white;
     line-height: 1.5em;
-    padding: 120px 20px 30px 20px;
+    padding: 190px 20px 30px 20px;
     letter-spacing: 0.15em;
     clear: both;
     border: none;
