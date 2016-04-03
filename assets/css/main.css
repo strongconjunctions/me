@@ -372,9 +372,9 @@ h3 {
   h3 {
     padding: 50px 0 50px; } }
 h3, header nav.nav-bar a, footer .lockup .content-wrap a {
-  font-size: 10pt;
-  font-weight: 600;
-  font-letter-spacing: 0.015em;
+  font-size: 11pt;
+  font-weight: 100;
+  letter-spacing: 0.12em;
   text-transform: uppercase; }
 
 .clients-section .clients-carousel .cl-section .cl-testimonials h3.name, .mail .gmail-link {
@@ -461,7 +461,7 @@ header {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    padding: 30px 0px 100px 0px; }
+    padding: 50px 0px 100px 0px; }
 
 @media (max-width: 690px) {
   header .logo {
