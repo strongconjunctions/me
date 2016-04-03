@@ -426,7 +426,7 @@ header {
     header nav.nav-bar a {
       display: inline-block;
       padding: 5px 8px 5px;
-      color: rgba(0, 0, 0, 0.2);
+      color: rgba(0, 0, 0, 0.6);
       transition: 0.2s ease-out; }
       header nav.nav-bar a:hover {
         color: #d89993; }
@@ -484,7 +484,7 @@ header {
       text-align: center;
       max-width: 100%; }
   header h1 {
-    padding: 120px 20px 20px 20px; }
+    padding: 190px 20px 20px 20px; }
   header hr {
     width: 90px; }
   header .kicker {
