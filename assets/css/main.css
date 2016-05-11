@@ -433,13 +433,13 @@ header {
   header h1 {
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
     line-height: 1.5em;
     padding: 190px 20px 30px 20px;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.05em;
     clear: both;
     border: none;
     margin: 0 auto 0 auto;
